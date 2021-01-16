@@ -11,8 +11,34 @@ li {
 
 a {
   text-decoration: none;
+  margin: 0 5px;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+nav ul {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #9a757a;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  padding: 120px;
 }
